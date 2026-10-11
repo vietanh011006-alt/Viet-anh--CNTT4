@@ -1,0 +1,17 @@
+=== LOG HUEN LUYEN ===
+So ban ghi: 4707
+Train: 3294, Val: 706, Test: 707
+
+Ket qua Validation:
+              Model  Accuracy  Precision   Recall       F1  ROC_AUC
+Logistic Regression  0.983003   0.941860 0.987805 0.964286 0.995646
+      Random Forest  1.000000   1.000000 1.000000 1.000000 1.000000
+          SVM (RBF)  0.966006   0.876344 0.993902 0.931429 0.998661
+                KNN  0.937677   0.983871 0.743902 0.847222 0.968668
+  Gradient Boosting  0.998584   0.993939 1.000000 0.996960 1.000000
+
+Mo hinh tot nhat: Random Forest
+Test - Acc: 1.0000
+Test - Rec: 1.0000
+Test - F1:  1.0000
+Test - AUC: 1.0000
